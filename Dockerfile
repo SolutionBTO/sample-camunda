@@ -5,4 +5,4 @@ FROM camunda/camunda-bpm-platform:latest
 LABEL "Maintainer"="Solutionbto"
 
 # Copy war in folder for deploy
-COPY target/my-camunda-1.0.0-SNAPSHOT.war /camunda/webapps/
+COPY target/my-camunda.war /camunda/webapps/
